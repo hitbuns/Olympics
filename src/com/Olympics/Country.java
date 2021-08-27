@@ -22,7 +22,7 @@ public class Country {
     }
 
     public void register(Athlete athlete) {
-        if (athletes.size() < 10)
+        if (athletes.size() < maxContestants)
         this.athletes.add(athlete);
     }
 
