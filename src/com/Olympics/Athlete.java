@@ -62,6 +62,7 @@ public class Athlete {
         return gold;
     }
 
+
     public static void save(Athlete athlete) {
         File f = Main.getInstance().getFile();
         try {
